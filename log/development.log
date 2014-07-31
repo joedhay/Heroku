@@ -9615,944 +9615,831 @@ Started GET "/assets/spectrum.png" for 192.168.1.14 at 2014-07-30 15:33:51 +0800
 Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.14 at 2014-07-30 15:33:51 +0800
 
 
-Started GET "/users/view_user" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/users/view_user" for 192.168.1.8 at 2014-07-31 14:34:02 +0800
 Processing by UsersController#view_user as HTML
-  Rendered users/view_user.html.erb within layouts/application (13.4ms)
+  Rendered users/view_user.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_sidebar.html.erb (2.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 231ms (Views: 230.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:06 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:07 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:11 +0800
+
+
+Started GET "/dashboards" for 192.168.1.8 at 2014-07-31 14:34:15 +0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html.erb within layouts/application (1.0ms)
   Rendered layouts/_sidebar.html.erb (1.1ms)
   Rendered layouts/_header.html.erb (0.1ms)
-Completed 200 OK in 28ms (Views: 28.0ms)
+Completed 200 OK in 19ms (Views: 17.5ms)
 
 
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:16 +0800
 
 
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 11:17:05 +0800
-
-
-Started GET "/users/view_user" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-Processing by UsersController#view_user as HTML
-  Rendered users/view_user.html.erb within layouts/application (0.6ms)
-  Rendered layouts/_sidebar.html.erb (1.0ms)
-  Rendered layouts/_header.html.erb (0.1ms)
-Completed 200 OK in 14ms (Views: 13.9ms)
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 11:19:14 +0800
-
-
-Started GET "/users/add_user" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
+Started GET "/users/add_user" for 192.168.1.8 at 2014-07-31 14:34:31 +0800
 Processing by UsersController#add_user as HTML
-  Rendered users/add_user.html.erb within layouts/application (11.1ms)
-  Rendered layouts/_sidebar.html.erb (0.7ms)
-  Rendered layouts/_header.html.erb (0.2ms)
-Completed 200 OK in 33ms (Views: 21.6ms)
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 11:19:21 +0800
-
-
-Started GET "/users/view_user" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-Processing by UsersController#view_user as HTML
-  Rendered users/view_user.html.erb within layouts/application (0.8ms)
-  Rendered layouts/_sidebar.html.erb (1.3ms)
-  Rendered layouts/_header.html.erb (0.2ms)
-Completed 200 OK in 17ms (Views: 17.0ms)
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 11:19:23 +0800
-
-
-Started GET "/groups/add_group" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
-Processing by GroupsController#add_group as HTML
-  Rendered groups/add_group.html.erb within layouts/application (9.5ms)
-  Rendered layouts/_sidebar.html.erb (0.7ms)
+  Rendered users/add_user.html.erb within layouts/application (12.7ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
   Rendered layouts/_header.html.erb (0.1ms)
-Completed 200 OK in 34ms (Views: 21.9ms)
+Completed 200 OK in 107ms (Views: 20.9ms)
 
 
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:32 +0800
 
 
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 11:19:26 +0800
-
-
-Started GET "/groups/view_group" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-Processing by GroupsController#view_group as HTML
-  Rendered groups/view_group.html.erb within layouts/application (2.7ms)
-  Rendered layouts/_sidebar.html.erb (1.3ms)
-  Rendered layouts/_header.html.erb (0.2ms)
-Completed 200 OK in 25ms (Views: 24.6ms)
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 11:19:28 +0800
-
-
-Started GET "/groups/view_group" for 192.168.1.8 at 2014-07-31 11:57:55 +0800
-Processing by GroupsController#view_group as HTML
-  Rendered groups/view_group.html.erb within layouts/application (1.9ms)
-  Rendered layouts/_sidebar.html.erb (1.9ms)
-  Rendered layouts/_header.html.erb (0.4ms)
-Completed 200 OK in 26ms (Views: 25.6ms)
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 11:57:56 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 11:57:57 +0800
-
-
-Started GET "/groups/view_group" for 192.168.1.8 at 2014-07-31 13:14:43 +0800
-Processing by GroupsController#view_group as HTML
-  Rendered groups/view_group.html.erb within layouts/application (1.3ms)
-  Rendered layouts/_sidebar.html.erb (1.0ms)
-  Rendered layouts/_header.html.erb (0.1ms)
-Completed 200 OK in 20ms (Views: 20.1ms)
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:14:45 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:14:47 +0800
-
-
-Started GET "/groups/view_group" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-Processing by GroupsController#view_group as HTML
-  Rendered groups/view_group.html.erb within layouts/application (0.9ms)
-  Rendered layouts/_sidebar.html.erb (2.0ms)
-  Rendered layouts/_header.html.erb (0.5ms)
-Completed 200 OK in 26ms (Views: 25.9ms)
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:20:53 +0800
-
-
-Started GET "/dashboards" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-Processing by DashboardsController#index as HTML
-  Rendered dashboards/index.html.erb within layouts/application (1.1ms)
-  Rendered layouts/_sidebar.html.erb (0.7ms)
-  Rendered layouts/_header.html.erb (0.1ms)
-Completed 200 OK in 15ms (Views: 14.6ms)
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:20:54 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:20:55 +0800
-
-
-Started GET "/dashboards" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-Processing by DashboardsController#index as HTML
-  Rendered dashboards/index.html.erb within layouts/application (0.1ms)
-  Rendered layouts/_sidebar.html.erb (0.8ms)
-  Rendered layouts/_header.html.erb (0.2ms)
-Completed 200 OK in 15ms (Views: 14.7ms)
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:20:57 +0800
-
-
-Started GET "/dashboards" for 192.168.1.8 at 2014-07-31 13:22:30 +0800
-Processing by DashboardsController#index as HTML
-  Rendered dashboards/index.html.erb within layouts/application (0.2ms)
-  Rendered layouts/_sidebar.html.erb (1.4ms)
-  Rendered layouts/_header.html.erb (0.2ms)
-Completed 200 OK in 18ms (Views: 17.6ms)
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:22:31 +0800
-
-
-Started GET "/users/add_user" for 192.168.1.8 at 2014-07-31 13:22:32 +0800
-Processing by UsersController#add_user as HTML
-  Rendered users/add_user.html.erb within layouts/application (7.1ms)
-  Rendered layouts/_sidebar.html.erb (1.1ms)
-  Rendered layouts/_header.html.erb (0.3ms)
-Completed 200 OK in 26ms (Views: 25.3ms)
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:32 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:32 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:32 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:32 +0800
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:32 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:33 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:33 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:33 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:33 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:22:33 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:22:33 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:33 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:22:33 +0800
-
-
-Started POST "/users/save_new_user" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started POST "/users/save_new_user" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 Processing by UsersController#save_new_user as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"UXXOS1J62p5oCZb3d+QxgfwPcjd3RP6PW1HzK6oFiB4=", "user"=>{"email"=>"", "username"=>"", "password"=>"[FILTERED]", "confirmed_password"=>"[FILTERED]", "alias"=>"", "first_name"=>"", "last_name"=>"", "mobile_num"=>"", "position"=>""}}
 Unpermitted parameters: position
-  Rendered users/add_user.html.erb within layouts/application (11.4ms)
+  Rendered users/add_user.html.erb within layouts/application (11.8ms)
   Rendered layouts/_sidebar.html.erb (0.8ms)
   Rendered layouts/_header.html.erb (0.1ms)
-Completed 200 OK in 33ms (Views: 22.4ms)
+Completed 200 OK in 36ms (Views: 23.7ms)
 
 
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:34 +0800
 
 
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:22:35 +0800
-
-
-Started GET "/users/view_user" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
+Started GET "/users/view_user" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 Processing by UsersController#view_user as HTML
-  Rendered users/view_user.html.erb within layouts/application (1.0ms)
-  Rendered layouts/_sidebar.html.erb (1.3ms)
-  Rendered layouts/_header.html.erb (0.2ms)
-Completed 200 OK in 19ms (Views: 18.3ms)
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:22:39 +0800
-
-
-Started GET "/groups/add_group" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-Processing by GroupsController#add_group as HTML
-  Rendered groups/add_group.html.erb within layouts/application (6.0ms)
-  Rendered layouts/_sidebar.html.erb (1.9ms)
-  Rendered layouts/_header.html.erb (0.1ms)
-Completed 200 OK in 30ms (Views: 29.4ms)
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:22:43 +0800
-
-
-Started POST "/groups" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
-Processing by GroupsController#create as HTML
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UXXOS1J62p5oCZb3d+QxgfwPcjd3RP6PW1HzK6oFiB4=", "group"=>{"name"=>"", "description"=>"", "status"=>""}}
-  Rendered groups/add_group.html.erb within layouts/application (4.9ms)
+  Rendered users/view_user.html.erb within layouts/application (0.5ms)
   Rendered layouts/_sidebar.html.erb (0.7ms)
   Rendered layouts/_header.html.erb (0.2ms)
-Completed 200 OK in 17ms (Views: 14.6ms)
+Completed 200 OK in 10ms (Views: 9.4ms)
 
 
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:22:44 +0800
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:38 +0800
 
 
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:22:45 +0800
+Started GET "/groups/add_group" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+Processing by GroupsController#add_group as HTML
+  Rendered groups/add_group.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 21.9ms)
 
 
-Started GET "/users/add_user" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:41 +0800
+
+
+Started GET "/groups/view_group" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+Processing by GroupsController#view_group as HTML
+  Rendered groups/view_group.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_sidebar.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 14ms (Views: 13.8ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:43 +0800
+
+
+Started GET "/groups/view_group" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+Processing by GroupsController#view_group as HTML
+  Rendered groups/view_group.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_sidebar.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.8ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:45 +0800
+
+
+Started GET "/groups/add_group" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+Processing by GroupsController#add_group as HTML
+  Rendered groups/add_group.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_sidebar.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.3ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:47 +0800
+
+
+Started GET "/users/add_user" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 Processing by UsersController#add_user as HTML
-  Rendered users/add_user.html.erb within layouts/application (36.7ms)
-  Rendered layouts/_sidebar.html.erb (1.9ms)
-  Rendered layouts/_header.html.erb (1.2ms)
-Completed 200 OK in 164ms (Views: 96.4ms)
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 13:46:19 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 13:46:20 +0800
-
-
-Started GET "/users/add_user" for 192.168.1.8 at 2014-07-31 14:06:18 +0800
-Processing by UsersController#add_user as HTML
-  Rendered users/add_user.html.erb within layouts/application (33.7ms)
-  Rendered layouts/_sidebar.html.erb (1.5ms)
-  Rendered layouts/_header.html.erb (0.8ms)
-Completed 200 OK in 167ms (Views: 93.0ms)
-
-
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:06:19 +0800
-
-
-Started GET "/users/view_user" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
-Processing by UsersController#view_user as HTML
-  Rendered users/view_user.html.erb within layouts/application (3.3ms)
-  Rendered layouts/_sidebar.html.erb (1.4ms)
+  Rendered users/add_user.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_sidebar.html.erb (0.8ms)
   Rendered layouts/_header.html.erb (0.2ms)
-Completed 200 OK in 23ms (Views: 22.5ms)
+Completed 200 OK in 22ms (Views: 21.0ms)
 
 
-Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
 
 
-Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:06:22 +0800
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:49 +0800
+
+
+Started POST "/users/save_new_user" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+Processing by UsersController#save_new_user as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UXXOS1J62p5oCZb3d+QxgfwPcjd3RP6PW1HzK6oFiB4=", "user"=>{"email"=>"", "username"=>"", "password"=>"[FILTERED]", "confirmed_password"=>"[FILTERED]", "alias"=>"", "first_name"=>"", "last_name"=>"", "mobile_num"=>"", "position"=>""}}
+Unpermitted parameters: position
+  Rendered users/add_user.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_sidebar.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 24ms (Views: 19.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:51 +0800
+
+
+Started GET "/dashboards" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_sidebar.html.erb (1.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 19.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:55 +0800
+
+
+Started GET "/dashboards" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+Processing by DashboardsController#index as HTML
+  Rendered dashboards/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:34:58 +0800
+
+
+Started GET "/users/view_user" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+Processing by UsersController#view_user as HTML
+  Rendered users/view_user.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_sidebar.html.erb (2.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 29.6ms)
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:35:28 +0800
+
+
+Started GET "/users/add_user" for 192.168.1.8 at 2014-07-31 14:35:29 +0800
+Processing by UsersController#add_user as HTML
+  Rendered users/add_user.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:35:30 +0800
+
+
+Started GET "/groups/add_group" for 192.168.1.8 at 2014-07-31 14:35:31 +0800
+Processing by GroupsController#add_group as HTML
+  Rendered groups/add_group.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_sidebar.html.erb (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:35:32 +0800
+
+
+Started GET "/groups/view_group" for 192.168.1.8 at 2014-07-31 14:35:33 +0800
+Processing by GroupsController#view_group as HTML
+  Rendered groups/view_group.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_sidebar.html.erb (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/dashboards.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/groups.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/groups.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/users.js?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/users.css?body=1" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/spectrum%20small.png" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/no_image.png" for 192.168.1.8 at 2014-07-31 14:35:34 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 192.168.1.8 at 2014-07-31 14:35:34 +0800

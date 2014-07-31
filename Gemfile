@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 gem 'active_attr'
-gem 'rails_12factor', group: :production
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -42,5 +41,3 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'thin'
-ruby '2.1.2'
