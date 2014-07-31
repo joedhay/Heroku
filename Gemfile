@@ -6,7 +6,8 @@ gem 'rails', '4.0.0'
 gem 'active_attr'
 
 group :production do
-    gem 'rails_12factor'
+   gem 'rails_12factor'
+   gem 'thin' 
 end
 
 # Use SCSS for stylesheets
