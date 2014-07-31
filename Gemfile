@@ -1,8 +1,14 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby '2.1.2'
 gem 'rails', '4.0.0'
 gem 'active_attr'
+
+group :production do
+    gem 'rails_12factor'
+    gem 'pg'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
