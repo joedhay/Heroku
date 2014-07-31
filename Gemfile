@@ -7,7 +7,6 @@ gem 'active_attr'
 
 group :production do
     gem 'rails_12factor'
-    gem 'pg'
 end
 
 # Use SCSS for stylesheets
