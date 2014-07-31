@@ -1,0 +1,97 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  company:
+    aphelion:       "APHELION"
+    corporation:    "CORPORATION"
+    spectrum:       "SPECTRUM"
+    2014:           "2014"
+
+  general:
+    name:           "Name"
+    welcome:        "Welcome"
+    enter_email:    "Enter email"
+    password:       "Password"
+    confirmed_pass: "Confirm Password"
+    re-password:    "Re-type Password"
+    log_in:         "log in"
+    dont_hv_acct:   "don't have an account?"
+    sign_up:        "sign up now"
+    forgot_pass:    "forgot password?"
+    click_me:       "click me"
+    error:          "error"
+    terms:          "Spectrum Terms"
+    comp_name:      "Company Name"
+    register:       "registration"
+    fill_up:        "please fill up the requirements below"
+    agree:          "I agree to the"
+    back:           "back"
+    description:    "Description"
+    status:         "Status"
+    code:           "Code"
+    role:           "Role"
+    group:          "Group"
+    groups:         "Groups"
+    user_account:   "User Account"
+    user_network:   "User's Network"
+    group_network:  "Group's Network"
+    action:         "Action"
+    created_at:     "Created At"
+    updated_at:     "Updated At"
+    dashboard:      "Dashboard"
+    position:       "Position"
+    gender:         "Gender"
+
+  users:
+    log_in_account: "log in to your account"
+    f_name:         "First Name"
+    l_name:         "Last Name"
+    mobile_num:     "Mobile Number"
+    email_add:      "E-mail Address"
+    alias:          "Alias"
+    username:       "Username"
+    sign_up:        "sign up"
+    email_req:      "is required"
+    alias_req:      "is required"
+    username_req:   "is required"
+    password_req:   "is required"
+    con_pass_req:   "is required"
+    condition:      "and condition should accept"
+    privacy:        "Privacy"
+    login_error:    "username and password cannot be empty"
+    reg_success:    "Your account already created. Check your email account for verification."
+    invalid_login:  "Invalid username and/or password"
+    list_of_users:  "List of User"
+    add_user:       "Add User"
+    creating_user:  "Creating a User"
+
+  groups:
+    name_req:       "is required"
+    code:           "12345-ABC"
+    group_success:  "New group created"
+    creating_grp:   "Creating a Group"
+    add_group:      "Add Group"
+
+  phrases:
+    saving_error_sfx:   "%{error} prohibited this task from being saved"
+    none_selected:      "You did not selected any record."
+    action_prohibited:  "You are not allowed to perform this action."

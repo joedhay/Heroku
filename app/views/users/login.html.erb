@@ -1,0 +1,50 @@
+<% if flash[:error] %>
+    <div class="alert alert-danger" id="users_error">
+      <a href="#" class="close" data-dismiss="alert">&times;</a>
+      <strong></strong> <%= @error_alert %>
+      <div class="notice"><%= flash[:error] %></div>
+    </div>
+<% end %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6">
+      <!--Logo Spectrum-->
+      <div class="col-md-12">
+        <img class="logo-image" src="/assets/spectrum-logo-white.png">
+        <div class="text-alignment-left">
+          <h1><%= t('general.welcome') %></h1>
+          <div class="text-alignment-top">
+            <h4><%= t('users.log_in_account') %></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 box">
+        <br/>
+
+          <%= form_tag(authenticate_users_path, { :class => 'form col-md-12 center-block',:role=> 'form' })  do %>
+              <div class="form-group">
+                <input type="text" class="form-control" name="username" id="exampleInputEmail1" placeholder="<%= t('general.enter_email') %>">
+              </div>
+              <div class="form-group">
+                <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="<%= t('general.password') %>">
+              </div>
+              <br/>
+              <button type="submit" class="btn btn-green"><%= t('general.log_in') %></button>
+              <div class="align"><%= t('general.forgot_pass') %> <a href="#"><%= t('general.click_me') %></a></div>
+          <% end %>
+
+      </div>
+      <div class="col-md-12">
+        <h3><%= t('general.dont_hv_acct') %> <a href="<%= registration_users_path %>"><%= t('general.sign_up') %> </a></h3>
+      </div>
+    </div>
+    <div class="col-md-3">
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

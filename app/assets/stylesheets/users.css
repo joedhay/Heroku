@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('/Fonts/OpenSans-Light-webfont.eot');
+    src: url('/Fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/Fonts/OpenSans-Light-webfont.woff') format('woff'),
+    url('/Fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+    url('/Fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+/*--------------------------- Code Pro Light ---------------------------*/
+@font-face {
+    font-family: 'CodeProLightDemoRegular';
+    src: url('/Fonts/Code_Pro_Light_Demo-webfont.eot');
+    src: url('/Fonts/Code_Pro_Light_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/Fonts/Code_Pro_Light_Demo-webfont.woff') format('woff'),
+    url('/Fonts/Code_Pro_Light_Demo-webfont.ttf') format('truetype'),
+    url('/Fonts/Code_Pro_Light_Demo-webfont.svg#CodeProLightDemoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+/*--------------------------- Code Pro Regular ---------------------------*/
+@font-face {
+    font-family: 'CodeProDemoRegular';
+    src: url('/Fonts/Code_Pro_Demo-webfont.eot');
+    src: url('/Fonts/Code_Pro_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/Fonts/Code_Pro_Demo-webfont.woff') format('woff'),
+    url('/Fonts/Code_Pro_Demo-webfont.ttf') format('truetype'),
+    url('/Fonts/Code_Pro_Demo-webfont.svg#CodeProDemoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+
+#login{
+    background: #640000; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #640000 0%, #147448 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#640000), color-stop(100%,#147448)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #640000 0%,#147448 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #640000 0%,#147448 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #640000 0%,#147448 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #640000 0%,#147448 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640000', endColorstr='#147448',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    font-family: 'open_sanslight';
+    margin-top: 15px;
+    color: #fff;
+
+
+}
+
+img.logo-image {
+    display: block;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    width: 70%;
+}
+
+.box {
+    background-color: #870b0e;
+    color: #fff;
+    border-radius:5px;
+}
+
+#wrappers {
+    padding-left: 0;
+}
+
+h1{
+    font-size: 4em;
+}
+
+.text-alignment-left{
+    margin-left: -15px;
+}
+.text-alignment-top{
+    margin-top: -10px;
+}
+.btn-green {
+    width: 100%;
+    color: #fff;
+    background-color: #175a3b;
+    border-color: #175a3b;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.align {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-footer {
+    font-family: 'CodeProLightDemoRegular';
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 9px;
+
+}
+b.blog-footer-bold{
+    font-family: 'CodeProDemoRegular';
+}

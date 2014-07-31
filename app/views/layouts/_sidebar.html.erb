@@ -1,0 +1,40 @@
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand">
+      <img src="/assets/no_image.png" ><br/>
+      <h4>admin</h4>
+      <h3> <span class="glyphicon glyphicon-th-large"></span> <span class="glyphicon glyphicon-envelope"></span></h3>
+    </li>
+    <li class="line-separator">
+      <a href="<%= dashboards_path %>"><%= t('general.dashboard') %></a>
+    </li>
+    <li>
+      <a href="#" data-toggle="collapse" data-target="#user" data-parent="#sidenav01" class="collapsed">
+        <%= t('general.user_account') %> <span class="caret"></span>
+      </a>
+      <div class="collapse" id="user" style="height: 0px;">
+        <ul class="nav nav-list">
+          <li><a href="<%= add_user_users_path %>"><%= t('users.add_user') %></a></li>
+          <li><a href="<%= view_user_users_path %>"><%= t('general.user_network') %></a></li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <a href="#" data-toggle="collapse" data-target="#group" data-parent="#sidenav02" class="collapsed">
+        <%= t('general.groups') %> <span class="caret"></span>
+      </a>
+      <div class="collapse" id="group" style="height: 0px;">
+        <ul class="nav nav-list">
+          <li><a href="<%= add_group_groups_path %>"><%= t('groups.add_group') %></a></li>
+          <li><a href="<%= view_group_groups_path %>"><%= t('general.group_network') %></a></li>
+        </ul>
+      </div>
+    </li>
+
+    <li>
+      <a href="#">Settings</a>
+    </li>
+
+  </ul>
+</div>
